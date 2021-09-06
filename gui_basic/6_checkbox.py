@@ -18,7 +18,6 @@ def btncmd():
     print(chkvar.get()) # 0 : 체크 해제, 1 : 체크
     print(chkvar2.get())
 
-
 btn = Button(root, text="클릭", command=btncmd)
 btn.pack()
 

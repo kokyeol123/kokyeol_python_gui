@@ -34,7 +34,7 @@ menu.add_cascade(label="서식(O)")
 menu.add_cascade(label="보기(V)")
 menu.add_cascade(label="도움말(H)")
 
-root.config(menu=menu) 
+root.config(menu=menu)
 
 # 스크롤 바
 scrollbar = Scrollbar(root)
